@@ -2,50 +2,97 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BelleAnge</title>
+    <title>Месяц 2</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-
-    <header> 
-        <h1>Belle Ange</h1>
-        <h2>Find your perfect dress, create your perfect moment</h2>
+    <header id="header">
+        <h1>Курс по веб разработке</h1>
+        <h2>Второй месяц обучения</h2>
     </header>
 
+    <div>
+        <ul class="nav">
+             <li> <a class="active" href="#header">главная</a> </li>
+             <li> <a href="#footer">контакты</a> </li>
+             <a href=""> <li>о нас</li> </a>
+             <a href=""> <li>чото</li> </a>
+             <a href=""> <li>кнопочка</li> </a>
+        </ul>
+
+    </div>
+
     <main>
-        <div class="left">
-            <div class="block">
-                <img height="400px" src="https://top15moscow.ru/storage/photos/December2019/thumbnails/1x/wEUIF0vuFhJGuWQi2Mm5.jpg?1609188522">
-            </div>
-         <img height="400px" src="https://top15moscow.ru/storage/photos/December2019/thumbnails/1x/m3SOeSJHGKajhRDRaSwu.jpg?1609188520">
-         
-         
+        <div class="block1">
+            <h2>маркированный список</h2>
+            <ul type="circle">
+                <li>суши</li>
+                <li>пицца</li>
+                <li>бургер</li>
+                <li>мороженое</li>
+            </ul>
         </div>
-        <div class="right">
-         <p>
-            В мире, наполненном мечтами и надеждами, каждое сердце ищет сказку, а каждая невеста — свое волшебное платье. В магазине свадебных платьев Belle Ange вы окунетесь в атмосферу красоты, нежности и неповторимости. Здесь каждая девушка найдет платье, созданное для того, чтобы сделать самый важный день в жизни по-настоящему особенным.
 
-Наши модели — это олицетворение элегантности и изящества, словно сошедшие со страниц романтических рассказов. Мы создаем уникальные образы, чтобы каждая невеста почувствовала себя принцессой, королевой и звездой в один и тот же волшебный момент. Профессиональные стилисты помогут вам выбрать именно то платье, которое подчеркнет вашу уникальность и красоту, а уютная, теплая атмосфера нашего салона подарит ощущение спокойствия и уверенности.
-
-Пусть ваше свадебное утро будет наполнено светом и любовью, а ваше платье — символом вашей мечты и счастья. В Belle Ange мы превращаем мечты в реальность, создавая истории любви, которые вдохновляют и навсегда остаются в сердце.
-         </p>
+        <div class="block2">
+            <h2>маркированный список</h2>
+            <ul type="circle">
+                <li>мохито</li>
+                <li>милкшейк</li>
+                <li>сок</li>
+                <li>чай</li>
+            </ul>
         </div>
+        
+        <div class="block3">
+            <h2>нумерованный список</h2>
+            <ol type="I">
+                <li>проснуться</li>
+                <li>позавтракать</li>
+                <li>идти в школу алтан</li>
+                <li>научиться программировать</li>
+                <li>придти домой</li>
+            </ol>
+        </div>
+
+        <div class="block4">
+            <h2>нумерованный список</h2>
+             <ol type="I">
+                <li>проснуться</li>
+                <li>позавтракать</li>
+                <li>идти в школу алтан</li>
+                <li>научиться программировать</li>
+                <li>придти домой</li>
+            </ol>
+        </div>
+        <form action="https://google.com/search" target="_blank">
+            <input type="search" name="q" placeholder="найти...">
+            <input type="submit" value="Найти">
+        </form>
+
     </main>
 
-    <footer>
-        <div class="f_left"> 
-            &copy; BELLEANGE
-            <img src="https://cdn-icons-png.flaticon.com/512/15384/15384438.png">
-        
-        <div class="f_right"> 
-        <ul>
-           <li> <a href=""> Whatsapp </a> </li>
-           <li> <a href=""> Telegram </a> </li>
-       </ul>
-        </div>
-    </footer>  
+    <footer id="footer">
+        <div>  &copy; IT школа Алтан </div>
 
+        <div>
+            <!-- Блок от социальных сетей -->
+            <ul class="social">
+                <li>
+                    <a href="https://vk.com/altanschool"><img width="40px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/VK_Compact_Logo.svg/2048px-VK_Compact_Logo.svg.png" alt="Vk logo"></a>
+                </li>
+                <li>
+                    <a href="https://t.me/altanschool"><img width="40px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/2048px-Telegram_logo.svg.png" alt="Telegram logo"></a>
+                </li>
+                <li>
+                    <a href="https://api.whatsapp.com/send/?phone=79963168871&text&type=phone_number&app_absent=0"><img width="40px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/WhatsApp_logo-color-vertical.svg/768px-WhatsApp_logo-color-vertical.svg.png" alt="Whatsapp logo"></a>
+                </li>
+
+            </ul>
+
+        </div>
+    </footer>
+    
 </body>
 </html>
