@@ -1,145 +1,92 @@
-body{
-    margin: 0;                              /*убирает отступы от всех краев*/
-    background-image: url(https://altanschool.s3.eu-central-1.amazonaws.com/learns/1697021662483_headerpic.jpg); /*изображение фона*/
-    background-size: 100%;                  /*размер фона*/
-    background-position-y: -50px;           /*изображение чуть поднято наверх*/
-    background-attachment: fixed;           /*фиксация фона*/
-}
-
 header{
-    height: 100%;               /*высота*/
-    padding: 30px;          /*внутренний отступ*/
-    text-align: right;      /*текст выровнени влево*/
-    color: rgb(0, 0, 91); /*цвет текста*/
-    font-size: 25px;        /*размер текста*/
-}
-
-h1{
-    padding-top: 50px;  /*Дополнительный отступ заголовка*/
-    font-size: 80px;    /*размер заголовка*/
-    color:rgb(255, 255, 255);  /*цвет*/
+    background-color: aliceblue;
+    height: 888px;
+    color: aliceblue;
+    font-size: 45px;
+    background-image: url(https://i.wfolio.ru/x/D48ScH1DA6jxU_uSH-Or-C0cJClpP-QP/lEAL128xEMPGM2o_rKw_kMPHKR9vAJ80/2g3xPDoVgbwST8Ou7xjImFCRK9a1ozAd/3EilsKPAZjFy0ubSSy9083TSoWUMqid-/0Oqev6LX5srGN88pafvvig.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 main{
-    height: 100%;   /*высота основной части*/
+    background-color: rgb(188, 188, 188);
+    height: 100%;
+    color: aliceblue;
+    font-size: 55px;
+    background-image: url();
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
     display: flex;
-    width: 50%;
-    padding: 10px;
 }
-form{
-    width: 400px;
+
+
+
+.left{
+    background-color: darkgrey;
     float: left;
-    margin: 1px 10px;
+    width: 35%;
+    height: 100%;
+    display: flex;
+}
+
+.block{
+    background-color: darkgrey;
+    
+    width: 100%;
+    height: 50%;
+    display: flex;
+}
+
+.right{
+    background-color: grey;
+    float: right;
+    width: 65%;
+    height: 100%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1{
+    text-align: center;
+    font-size: 88px;
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    padding-top: 350px;
+}
+
+h2{
+    text-align: center;
+    font-size: 30px;
+    color: aliceblue;
+    font-family:'Courier New', Courier, monospace;
+    font-style: oblique;
+    font-weight: lighter;
 }
 
 footer{
-    height: 100%;    /*высота*/
-    text-align: left;  /*текст выровннен влево*/
-    padding: 50px;   /*внутренний оступ*/
-    color: white;  /*цвет текста*/
-    font-size: 20px;  /*размер текста*/
-}
-
-.social{
-    list-style: none; /*убирает маркеры*/
-    display: flex; /*отображает в ряд*/
-    align-items: left; /*выравнивает иконки по центру внутри каждого пункта*/
-    justify-content: left; /*выравнивает все иконки по центру страницы*/
-    margin: 0;
-    padding: 0;
-}
-
-.social li {
-    padding-left: 10px;
-    padding-top: 20px;
-}
-
-.block1{
-    width: 25%;
+    background-color: dimgrey;
     height: 100%;
-    background-color: rgb(131, 210, 255);
-}
-
-.block2{
-    width: 25%;
-    height: 100%;
-    background-color:rgb(96, 178, 255);
-}
-
-.block3{
-    width: 25%;
-    height: 100%;
-    background-color:rgb(60, 159, 252) ;
-}
-
-.block4{
-    width: 25%;
-    height: 100%;
-    background-color:rgb(23, 143, 255);
-}
-
-.block1 li{
-    background-color: rgb(205, 236, 255);
-    line-height: 2em;
-    margin-top: 10px;
-    border-radius: 3em;
-    width: 60%;
-    padding-left: 10px;
-    height: 100px;
-}
-
-.block2 li{
-    background-color: rgb(205, 236, 255);
-    line-height: 2em;
-    margin-top: 10px;
-    border-radius: 3em;
-    width: 60%;
-    padding-left: 10px;
-    height: 100px;
-}
-
-.block3 li{
-    background-color: rgb(205, 236, 255);
-    line-height: 2em;
-    margin-top: 10px;
-    border-radius: 3em;
-    width: 60%;
-    padding-left: 10px;
-    height: 100px;
-}
-
-.block4 li{
-    background-color: rgb(205, 236, 255);
-    line-height: 2em;
-    margin-top: 10px;
-    border-radius: 3em;
-    width: 60%;
-    padding-left: 10px;
-    height: 100px;
-}
-
-.nav ul{
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    background-color: rgb(174, 224, 255);
-    font-size: 20px;
-    width: 100%;
-    border: 2px solid rgb(154, 186, 206);
+    color: rgb(255, 255, 255);
+    font-size: 45px;
     text-align: center;
-    overflow: hidden;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    display: flex;
 }
 
-.nav a{
-    display: block;
-    text-decoration: none;
-    color: rgb(0, 34, 64);
-    padding: 8px 16px;
+.f_left{
+    width: 30%;
+    height: 100%;
+    float: left;
+    text-align: center;
+    padding: 20px;
+    background-color: dimgrey;
 }
-
-.nav a:hover{
-    background-color: rgb(206, 232, 255);
-    color: rgb(81, 157, 224);
+.f_right{
+    width: 70%;
+    height: 100%;
+    float: right;
+    background-color: dimgrey;
 }
-
-
