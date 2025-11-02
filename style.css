@@ -1,0 +1,92 @@
+header{
+    background-color: aliceblue;
+    height: 888px;
+    color: aliceblue;
+    font-size: 45px;
+    background-image: url(https://i.wfolio.ru/x/D48ScH1DA6jxU_uSH-Or-C0cJClpP-QP/lEAL128xEMPGM2o_rKw_kMPHKR9vAJ80/2g3xPDoVgbwST8Ou7xjImFCRK9a1ozAd/3EilsKPAZjFy0ubSSy9083TSoWUMqid-/0Oqev6LX5srGN88pafvvig.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+main{
+    background-color: rgb(188, 188, 188);
+    height: 100%;
+    color: aliceblue;
+    font-size: 55px;
+    background-image: url();
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    display: flex;
+}
+
+
+
+.left{
+    background-color: darkgrey;
+    float: left;
+    width: 35%;
+    height: 100%;
+    display: flex;
+}
+
+.block{
+    background-color: darkgrey;
+    
+    width: 100%;
+    height: 50%;
+    display: flex;
+}
+
+.right{
+    background-color: grey;
+    float: right;
+    width: 65%;
+    height: 100%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1{
+    text-align: center;
+    font-size: 88px;
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    padding-top: 350px;
+}
+
+h2{
+    text-align: center;
+    font-size: 30px;
+    color: aliceblue;
+    font-family:'Courier New', Courier, monospace;
+    font-style: oblique;
+    font-weight: lighter;
+}
+
+footer{
+    background-color: dimgrey;
+    height: 100%;
+    color: rgb(255, 255, 255);
+    font-size: 45px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    display: flex;
+}
+
+.f_left{
+    width: 30%;
+    height: 100%;
+    float: left;
+    text-align: center;
+    padding: 20px;
+    background-color: dimgrey;
+}
+.f_right{
+    width: 70%;
+    height: 100%;
+    float: right;
+    background-color: dimgrey;
+}
